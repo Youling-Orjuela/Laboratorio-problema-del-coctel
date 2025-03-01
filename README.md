@@ -151,7 +151,8 @@ print("Voz 3 separada correctamente y guardada en 'voz_separada_3.wav'.")
 ```
 [![SNR.jpg](https://i.postimg.cc/4dFCx10z/SNR.jpg)](https://postimg.cc/34pfL2YR)
 
-
+Para analizar los resultados obtenidos de SNR, se deben ver primero las señales originales, en donde se evidencia una gran afectación por el ruido, especialmente en la grabación 3, que presenta incluso valores negativos. La grabación 1 tiene los mejores SNR entre las grabaciones originales, que van de 2.45dB a 8.81dB, mientras que las otras  dos presentaron valores más bajos, llegando hasta -6.30dB, lo que indica que el ruido es más fuerte que la señal. Así mismo se observa que el ruido 2 es más problemático, ya que en casi todas las grabaciones originales presenta los SNR más bajos, lo que dificulta la separación de la señal.
+Para el caso de la voz separada, se ve una mejoría notoria en los SNR, alcanzando valores de 25.07dB a 33.34dB, lo que demuestra que  el método de separación de voz ha sido altamente efectivo en la eliminación de ruido. Se observa que el ruido 3 es el más fácil de filtrar, ya que el SNR más alto corresponde a la voz separada con este ruido. En general, la técnica utilizada logró aumentar el SNR a más de 20dB, lo que confirma que el proceso de separación fue exitoso.
 ## Análisis temporal y espectral
 
 En esta parte se muestra la señal de audio en el dominio del tiempo y de la frecuencia usando la Transformada Rápida de Fourier (FFT) y la Transformada Discreta de Fourier (DFT). Esto se hace para visualizar cómo varía la señal en el tiempo y su distribución espectral, lo que permite entender como se compone la voz y su posible separación de otras fuentes de ruido.
