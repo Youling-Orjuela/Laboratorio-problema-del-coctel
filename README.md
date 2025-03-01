@@ -215,6 +215,10 @@ La tercera gráfica corresponde al espectro obtenido con la Transformada Discre
 
 ## Conclusiones
 
+Se pudo concluir que; gracias al análisis hecho en las señales de audio capturadas y separadas, la Transformada Rápida de Fourier (FFT) y la Transformada Discreta de Fourier (DFT) tienen distribuciones similares de energía en el espectro de frecuencias, destacando componentes principales alrededor de los 100 Hz, típicos de la voz humana. Sin embargo, la FFT demostró ser más eficiente en el procesamiento de señales de audio debido a su mayor efectividad de procesamiento de señales y muestras por segundo.  
+
+Por parte del análisis de la relación señal-ruido (SNR), se evidenció una fuerte afectación por ruido en las grabaciones originales, con valores negativos en algunos casos, indicando que la interferencia era superior a la señal útil. Tras la separación de voz, los SNR mejoraron significativamente, alcanzando valores superiores a 25 dB, lo que confirma la efectividad del método utilizado. No obstante, los resultados no fueron óptimos debido a las condiciones de grabación, ya que el medio y los micrófonos de grabación no permitieron grabar de la manera esperada las señales empleadas en esta practica. 
+
 ## Bibliografía
 
 Beamforming e Holografia acústica | Brüel & Kjær. (n.d.). Brüel & Kjær | B&K | Sound and Vibration. https://www.bksv.com/es/knowledge/applications/noise-source-identification/beamforming
